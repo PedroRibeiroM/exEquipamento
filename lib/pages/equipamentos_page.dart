@@ -40,7 +40,7 @@ class _EquipamentosPageState extends State<EquipamentosPage> {
                   title: Text(equipamento['nome']),
                   subtitle: Text(equipamento['disponivel']
                       ? 'Disponível'
-                      : 'Retirado em: ${equipamento['dataRetirada']}'),
+                      : 'Retirado'),
                   trailing: equipamento['disponivel']
                       ? ElevatedButton(
                           onPressed: () {
